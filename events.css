@@ -1,0 +1,163 @@
+.upcomingevents{
+    width: 100%;
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    text-align: center;
+    contain: content;
+    position: relative;
+  }
+  
+  .events3{
+    width: 1002px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (max-width: 1000px){
+    .events3{
+      width: 690px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media screen and (max-width: 666px){
+    .events3{
+      width: 330px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+
+
+
+.event{
+    float: left;
+    
+    width: 270px;
+    
+    
+    margin: 30px;
+    
+    background: #ffffff00;
+    color: rgb(0, 0, 0);
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+    
+
+  }
+
+  .event:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+
+  }
+
+  
+  
+  
+  .enamecont{
+    width: 100%;
+    height: 40px;
+  }
+  
+  .viewmore{
+    padding: 10px 80px;
+    border-radius: 5px;
+    
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .viewmore:hover{
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+           inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+  }
+  
+  .moreevents-wrapper{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    contain: content;
+  }
+  
+  .moreevents {
+    padding: 10px 20px;
+    border-radius: 16px;
+    border-color: rgb(68, 68, 68);
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    text-decoration: none;
+    background-color: #0E0E0E;
+  }
+  
+  .event p{
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+    font-size: large;
+  }
+  
+  .eventnme{
+    color: #292929;
+    
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .eventnme:hover{
+    color: #830909;
+  }
+  
+  .event-banner{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .eventnme {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .eventnme .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 25%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .eventnme .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .eventnme:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .upcomingevents h1{
+    color: #805100;
+    font-size: 50px;
+  }
