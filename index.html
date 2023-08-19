@@ -1,136 +1,462 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>MALLU TRUCKING CO.LTD</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
-  </head>
-    <body>
-	  
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>MALLU TRUCKING CO.LTD</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .moving-clouds {
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            left: 0;
+            width: 250.625em;
+            height: 43.75em;
+            animation: c 80s linear infinite;
+        }
+
+        @keyframes c {
+            0% {
+                transform: translateZ(0)
+            }
+
+            to {
+                transform: translate3d(-50%, 0, 0)
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="oneMusic-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="https://truckersmp.com/vtc/55473">Apply</a></li>
+
+                                    <li><a href="#Events">Events</a></li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+
+                                <!-- Login/Register & Cart Button -->
+                                <!--  -->
+                            </div>
+                            <!-- Nav End -->
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+
+
+
+    <!-- ##### Hero Area Start ##### -->
+    <section>
+        <div class="page-header">
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/etsbg4.png);"></div>
+                <!-- Slide Content -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h6 data-animation="fadeInUp" data-delay="100ms">Delivering Possibilities</h6>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Beyond The Limits <span>Beyond The
+                                        Limits</span></h2>
+                                <a data-animation="fadeInUp" data-delay="500ms" href="#"
+                                    class="btn oneMusic-btn mt-50">Apply Now <i
+                                        class="fa fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="moving-clouds" style="background-image: url('https://ltgvtc.com/assets/img/clouds.png');">
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Single Hero Slide -->
+
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### About us ##### -->
+
+    <section class="latest-albums-area section-padding-100">
         <div class="container">
-	  
-		<!--────────────────Header───────────────-->
-	<header>
-		<a class="logo" href="#home">
-              <img src="https://static.truckersmp.com/images/vtc/logo/55473.1655614511.jpg" alt="mtc logo" />
-		</a>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">Home</a></li>
-			<li><a class="nav-link" href="#Founders">Founders</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
-		 </ul>
-			
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-		</nav>
-	</header>
-	<main>
-		<!--─────────────────Home────────────────-->
-	  <div id="home">
-		 <div class="filter"></div>
-		 <section class="intro">
-		  <h3>MALLU TRUCKING CO.LTD<hr></h3>
-		  <p>Mallu Trucking CO LTD (MTC) is a virtual trucking company in TruckersMP, the Multiplayer port for Euro Truck Simulator 2 and American Truck Simulator 2. MTC was created in 13th June 2022, by some close trucking friends and now have grown into a bigger group than it previously was.
-The main function of MTC is virtual trucking with similar minded people. But the aim is not only limited to trucking, but MTC is also about friendship, co-operation, and also about having a good time with together, away from all the stresses of real world. We support each other and we love trucking, a match made in heaven.
-Even if the initial plan of MTC was just a group of friends to chill and drive together, more like-minded people joined our community and we are growing now! The core of the group is togetherness, and politeness. And our weekly / monthly events are aimed towards this goal of togetherness and having a good time!
-Come ride with us!</p>
-		  
-			  
-		  <!--────social media links─────-->
-			 
-		  <div class="social-media">
-			  <a href=" https://discord.gg/VnhSvJP8XR" target="_blank"><i class='fab fa-discord'></i></a>
-			  <a href="#" target="_blank"><i class='fab fa-instagram'></i></a>
-			 
-		
-		
-		
-		    </div> 
-			<br>
-		    <br>
-			<br>
-			<a href="https://truckersmp.com/vtc/55473" target="_blank"><img src="https://cdn.discordapp.com/attachments/1100351823342215191/1100738689539264562/truckersmp-logo-sm.webp"></SRC></a>
-		 </section> 
-	  </div>  
-		
-	  <!--───────────────Projects───────────────-->
-	  <div id="Founders"> 
-		 <h3>Our Founders<hr></h3>
-		  <p>.</p>
-		  <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
-			<div class="card">
-			    <img class="work-img" src="https://cdn.discordapp.com/avatars/556872154008780800/283470d6d341bf2ddfa534b70b11a92f.webp?size=128">
-			    <a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">rajeev#9178 (Founder)</div></a>
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <h2>About us</h2>
+                    </div>
+                </div>
             </div>
-			<div class="card">
-			    <img class="work-img" src="https://cdn.discordapp.com/avatars/744496576449216552/d047330bec166aad659880ec598dfc49.webp?size=128">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">AK !™#6997 (CO-Founder).</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" src="https://cdn.discordapp.com/avatars/499657690558103576/65757e8c9b0523ed8a85b7edb3748eb6.webp?size=128">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">BEAST GAMING STUDIO#2675 (CEO).</div></a>
-            </div>
-            <div class="card">
-			    <img class="work-img" src="https://cdn.discordapp.com/avatars/998827021398446110/932328c6075481db168dd2b7b1c0ec4d.webp?size=128">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">DAreDenil#6500 (Event Manager).</div></a>
-            </div> 
-			<div class="card">
-			    <img class="work-img" src="https://cdn.discordapp.com/avatars/840114449326538772/93dd324252ce01c2089ab9bf4cf33820.webp?size=128?>
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">Team_Reaper#2119 (Recruiter).</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="https://cdn.discordapp.com/avatars/640592729042059265/387305548545df8e3404120536f49474.webp?size=128">
-				<a href="" target="_blank"> <!--Link to project-->
-				<div class="work-content">mr_nixl#8497 (Recruiter).</div></a>
-            </div> 	  
-		  </div>
-		  </div>
-	  </div>
-	 
-	  
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-5 col-lg-4 text-center">
+                    <div class="featured-artist-thumb">
+                        <img src="https://static.truckersmp.com/images/vtc/logo/55473.1655614511.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 col-lg-8 py-4">
 
-		<!--──────────────Contact────────────────-->
-	  <div id="contact">
-		  <!--────social media links─────-->
-		   <h3>Contact.<hr></h3>
-		   <p>Feel free to contact me on our social media.</p>
-		    <div class="social-media">
-				<a href="https://discord.gg/VnhSvJP8XR" target="_blank"><i class='fab fa-discord'></i></a>
-				<a href="#" target="_blank"><i class='fab fa-instagram'></i></a>
-				
-		
-				
-		    </div>
-			<a href="https://truckersmp.com/vtc/55473" target="_blank"><img src="https://cdn.discordapp.com/attachments/1100351823342215191/1100738689539264562/truckersmp-logo-sm.webp"></src></a>
-		  </div>
 
-	</main>
-	  <footer class="copyright">© 2023
-		  <a href="https://discord.gg/5ZmJ4PUQ7x" target="_blank">BEAST GAMING STUDIO#2675</a>
-     </footer>
-	  
-  </div>
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="" theme="blue" defer></script>  
-  </body>
+
+                    <div class="mb-70" style="font-weight: bold;">
+                        <p>Mallu Trucking CO LTD (MTC) is a virtual trucking company in TruckersMP, the Multiplayer port
+                            for Euro Truck Simulator 2 and American Truck Simulator 2. MTC was created in 13th June
+                            2022, by some close trucking friends and now have grown into a bigger group than it
+                            previously was. The main function of MTC is virtual trucking with similar minded people. But
+                            the aim is not only limited to trucking, but MTC is also about friendship, co-operation, and
+                            also about having a good time with together, away from all the stresses of real world. We
+                            support each other and we love trucking, a match made in heaven. Even if the initial plan of
+                            MTC was just a group of friends to chill and drive together, more like-minded people joined
+                            our community and we are growing now! The core of the group is togetherness, and politeness.
+                            And our weekly / monthly events are aimed towards this goal of togetherness and having a
+                            good time! Come ride with us!</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- ##### About us end ##### -->
+
+    <!-- ##### Events ##### -->
+    <section class="latest-albums-area section-padding-100" id="Events">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <p>See what’s new</p>
+                        <h2>Upcoming Events</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="albums-slideshow owl-carousel">
+                        <!-- Single Album -->
+                        <div class="single-album">
+                            <img src="https://static.truckersmp.com/images/event/cover/17024.1691217218.jpeg" alt="">
+                            <div class="album-info">
+                                <a href="https://truckersmp.com/events/17024-onam-special-convoy2023">
+                                    <h5>ONAM SPECIAL CONVOY 2023</h5>
+                                </a>
+                                <p>03 Sep 21:15</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Events End ##### -->
+
+    <!-- ##### About us 2 ##### -->
+    <section class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed"
+        style="background-image: url(img/bg-img/etsbg2.png);">
+        <div class="container">
+            <div class="row align-items-end">
+
+                <div class="col-12">
+                    <div class="featured-artist-content">
+
+                        <div class="section-heading white  mb-30 justify-content-center align-items-center">
+                            <h2>Join Us Today!</h2>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Featured Artist Area End ##### -->
+
+    <!-- ##### Buy Now Area Start ##### -->
+    <section class="oneMusic-buy-now-area has-fluid bg-gray section-padding-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading style-2">
+                        <p>Strength</p>
+                        <h2>Our Founders</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Album Area -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="100ms">
+                        <div class="album-thumb">
+                            <img src="https://cdn.discordapp.com/avatars/556872154008780800/283470d6d341bf2ddfa534b70b11a92f.webp?size=128"
+                                alt="">
+
+                        </div>
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>Mallu Pc Gamer</h5>
+                            </a>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Album Area -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="200ms">
+                        <div class="album-thumb">
+                            <img src="https://cdn.discordapp.com/avatars/744496576449216552/d047330bec166aad659880ec598dfc49.webp?size=128"
+                                alt="">
+                        </div>
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>Mr AK Gamer</h5>
+                            </a>
+                            <p>Co Founder</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Album Area -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="300ms">
+                        <div class="album-thumb">
+                            <img src="https://cdn.discordapp.com/avatars/499657690558103576/65757e8c9b0523ed8a85b7edb3748eb6.webp?size=128"
+                                alt="">
+                        </div>
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>Beast Gaming Studio</h5>
+                            </a>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Album Area -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="400ms">
+                        <div class="album-thumb">
+                            <img src="https://cdn.discordapp.com/avatars/998827021398446110/932328c6075481db168dd2b7b1c0ec4d.webp?size=128"
+                                alt="">
+                        </div>
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>Dare Denil</h5>
+                            </a>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Album Area -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="500ms">
+                        <div class="album-thumb">
+                            <img src="https://images-ext-1.discordapp.net/external/fmVrl2wWQBb1SW1p3tEOay1oUij9Ps6qk5kyE-d2COo/https/static.truckersmp.com/avatarsN/4832279.1675096699.jpg"
+                                alt="">
+
+                        </div>
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>Team Reaper</h5>
+                            </a>
+                            <p>Event Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Album Area -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="600ms">
+                        <div class="album-thumb">
+                            <img src="https://images-ext-1.discordapp.net/external/yN2AnbhEhbXPQDEGxNB-1DnqN2ZTCHLEMcySuIxjYCw/https/static.truckersmp.com/avatarsN/4768029.1655396880.png"
+                                alt="">
+                        </div>
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>Mr Nixl</h5>
+                            </a>
+                            <p>Recruiter</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ##### Buy Now Area End ##### -->
+
+
+
+
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img"
+        style="background-image: url(img/bg-img/etsbg5.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading white wow fadeInUp" data-wow-delay="100ms">
+                        <p>See what’s new</p>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contact Form Area -->
+                    <div class="contact-form-area">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="100ms">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="200ms">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="300ms">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="400ms">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="500ms">
+                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i
+                                            class="fa fa-angle-double-right"></i></button>
+                                </div> -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-6">
+                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                    <p class="copywrite-text"><a
+                            href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved
+                        </a></p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="footer-nav">
+                        <ul>
+                            <li>
+                                <a href="https://discord.gg/fEC4Cx7ZGy"><i class="fab fa-discord"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
 </html>
