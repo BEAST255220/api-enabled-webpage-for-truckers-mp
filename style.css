@@ -526,7 +526,7 @@ img {
   z-index: 1;
   padding: 0 30px;
   overflow: hidden; }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+/*   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-hero-slide {
       height: 700px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -534,7 +534,7 @@ img {
       height: 650px; } }
   @media only screen and (max-width: 767px) {
     .single-hero-slide {
-      height: 500px; } }
+      height: 500px; } } */
   .single-hero-slide::after {
     position: absolute;
     width: 100%;
