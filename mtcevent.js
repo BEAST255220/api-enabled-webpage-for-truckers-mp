@@ -5,8 +5,7 @@ window.onload = async () => {
 };
 
 async function updateEvents() {
-    // const Response = await fetch("https://mallutc.dudemods.repl.co/api.truckersmp.com/v2/vtc/55473/events",
-    const Response = await fetch("https://cors-anywhere.jcrbuilds.repl.co/api.truckersmp.com/v2/vtc/55473/events",{
+    const Response = await fetch("https://cors-anywhere.jcrbuilds.repl.co/api.truckersmp.com/v2/vtc/55473/events", {
         method: 'GET',
         Headers: {
             accept: 'application/json',
