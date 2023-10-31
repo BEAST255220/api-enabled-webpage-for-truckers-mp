@@ -60,7 +60,7 @@ async function updateEvents() {
         document.getElementById('events').appendChild(NewDiv)
 
         Count = Count + 1
-        console.log(Count)
+       
 
         }
         
@@ -127,7 +127,7 @@ async function aupdateEvents() {
     document.getElementById('aevents').appendChild(NewDiv)
 
     Count = Count + 1
-    console.log(Count)
+    
 
     }
     
