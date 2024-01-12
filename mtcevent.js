@@ -33,21 +33,22 @@ async function updateEvents() {
 
         
         const eventsHTML = `
-        <div class="event">
-            <img class="event-banner " src="${banner}">
-            <div class="enamecont py-2">
-                <a href="https://truckersmp.com/events/${event[i].id}" class="eventnme ">${event[i].name}
-                    
-                </a>
+        <div class="card m-2 shadow-md event" style="width: 18rem; height:28rem; float:left;">
+            <img class="card-img-top" src="${banner}">
+            <div class="card-body">
+                <h5 class="card-title text-center">${event[i].name}</h5>
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="fa fa-calendar-alt"></i> ${event[i].start_at}</li>
+                        <li class="list-group-item"><i class="fa fa-gamepad"></i> ${event[i].game}</li>
+                        <li class="list-group-item"><i class="fa fa-server"></i> ${event[i].server.name}</li>
+                        <li class="list-group-item"><i class="fa fa-map"></i> ${event[i].departure.city} > ${event[i].arrive.city}</li>
+                    </ul>
+                </div>
+ 
             </div>
-            <p><i class="fa fa-calendar-alt"></i> ${event[i].start_at}<br>
-                <i class="fa fa-gamepad"></i> ${event[i].game}<br>
-                <i class="fa fa-server"></i> ${event[i].server.name}<br>
-                <i class="fa fa-map"></i> ${event[i].departure.city} > ${event[i].arrive.city} <br>
-                
-            </p>
-            <div class="viewmore m-2 my-2">
-            <a  href="https://truckersmp.com/events/${event[i].id}">View More</a>
+            <div class="card-footer text-center">
+                <a href="https://truckersmp.com/events/${event[i].id}" class="btn btn-danger w-100">Join</a>
             </div>
         </div>
         `
@@ -102,21 +103,22 @@ async function aupdateEvents() {
 
         
         const eventsHTML = `
-        <div class="event">
-            <img class="event-banner " src="${banner}">
-            <div class="enamecont py-2">
-                <a href="https://truckersmp.com/events/${event[i].id}" class="eventnme ">${event[i].name}
-                    
-                </a>
+        <div class="card m-2 shadow-md event" style="width: 18rem; height:28rem; float:left;">
+            <img class="card-img-top" src="${banner}">
+            <div class="card-body">
+                <h5 class="card-title text-center">${event[i].name}</h5>
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="fa fa-calendar-alt"></i> ${event[i].start_at}</li>
+                        <li class="list-group-item"><i class="fa fa-gamepad"></i> ${event[i].game}</li>
+                        <li class="list-group-item"><i class="fa fa-server"></i> ${event[i].server.name}</li>
+                        <li class="list-group-item"><i class="fa fa-map"></i> ${event[i].departure.city} > ${event[i].arrive.city}</li>
+                    </ul>
+                </div>
+ 
             </div>
-            <p><i class="fa fa-calendar-alt"></i> ${event[i].start_at} UTC<br>
-                <i class="fa fa-gamepad"></i> ${event[i].game}<br>
-                <i class="fa fa-server"></i> ${event[i].server.name}<br>
-                <i class="fa fa-map"></i> ${event[i].departure.city} > ${event[i].arrive.city} <br>
-                
-            </p>
-            <div class="viewmore m-2 my-2">
-            <a  href="https://truckersmp.com/events/${event[i].id}">View More</a>
+            <div class="card-footer text-center">
+                <a href="https://truckersmp.com/events/${event[i].id}" class="btn btn-danger w-100">Join</a>
             </div>
         </div>
         `
