@@ -5,7 +5,7 @@ window.onload = async () => {
 };
 
 async function updateEvents() {
-    const Response = await fetch("https://cors-anywhere.jcrbuilds.repl.co/api.truckersmp.com/v2/vtc/55473/events", {
+    const Response = await fetch("https://drivershub.stridehaulage.com/api/tmp?endpoint=vtc/55473/events", {
         method: 'GET',
         headers: {
             accept: 'application/json',
@@ -73,7 +73,7 @@ async function updateEvents() {
 };
 
 async function aupdateEvents() {
-    const Response = await fetch("https://cors-anywhere.jcrbuilds.repl.co/api.truckersmp.com/v2/vtc/55473/events/attending", {
+    const Response = await fetch("https://drivershub.stridehaulage.com/api/tmp?endpoint=vtc/55473/events/attending", {
         method: 'GET',
         headers: {
             accept: 'application/json',
